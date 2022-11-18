@@ -273,7 +273,7 @@ You can edit it by clicking ![](./Media/Snapshots/settings_menu.jpg "Settings").
 
 You can optionally upload and download the ACI endpoint update app in JSON format. This might be useful to create a large configuration at once and then to back up that configuration later.
 
-All target devices from the current site are exported when you request it but for easier reading, the following formats are split between Management Center and ASA.
+All target devices from the current site are exported when you request it, but for easier reading, the following formats are split between Management Center and ASA.
 
 Management Center:
 
