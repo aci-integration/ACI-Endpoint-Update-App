@@ -21,6 +21,8 @@
 * Set up a Ubuntu 20.04 or 22.04 virtual machine (VM)
 * Download and install `install_aci_app_3.0.tgz` on the VM
 
+   > Recommended CPU cores: 4 or more. Memory: 16GB or more.
+
 <a name="instructions"></a>
 ## Installation Instructions
 
@@ -93,13 +95,13 @@ For more information about domains, see the chapter on domain management in the 
 
 ##### Create domains and subdomains
 
-Before you continue, make sure you have created all users, domains, and subdomains on the management center. Subdomain users must be created in the correct domain (***System*** ![](./Media/Snapshots/system_gear.jpg "System Gears")) ***> Users > Create User***. If necessary, click Add Domain to add the user to the desired domain.)
+Before you continue, make sure you have created all users, domains, and subdomains on the management center. Subdomain users must be created in the correct domain (***System*** (![](./Media/Snapshots/system_gear.jpg "System Gears")) ***> Users > Create User***. If necessary, click Add Domain to add the user to the desired domain.)
 
 To create a domain on the management center:
 
 Log in to the management center.
 
-Click ***System*** ![](./Media/Snapshots/system_gear.jpg "System Gears")) ***> Domains > Add Domain***.
+Click ***System*** (![](./Media/Snapshots/system_gear.jpg "System Gears")) ***> Domains > Add Domain***.
 
 Enter the required information.
 
@@ -271,7 +273,7 @@ You can edit it by clicking ![](./Media/Snapshots/settings_menu.jpg "Settings").
 
 You can optionally upload and download the ACI endpoint update app in JSON format. This might be useful to create a large configuration at once and then to back up that configuration later.
 
-All target devices from the current site are exported when you request it but for easier reading, the following formats are split between Management Center and ASA.
+All target devices from the current site are exported when you request it, but for easier reading, the following formats are split between Management Center and ASA.
 
 Management Center:
 
